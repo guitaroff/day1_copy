@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app-container # Имя контейнера в поде
-          image: cr.yandex/crp7r0r719t2qkhkume1/hello-ruby:0.0.11 # ${IMAGE_NAME}
+          image: cr.yandex/crpfe7dvq7phvpfcl89b/hello-ruby:0.0.1 # ${IMAGE_NAME}
           ports:
             - containerPort: 9292
           env:
